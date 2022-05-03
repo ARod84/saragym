@@ -1,9 +1,28 @@
 import '../styles/navbar.css';
 
+
 const NavBar = () => {
     return (
     <>
+    <div className="wrapperNavbar">
     <div className="navInner">
+        <ul className="categorias">
+            <li className="menuLink destacado">
+                Rutinas
+            </li>
+            <li className="menuLink">
+                Workshops
+            </li>
+            <li className="menuLink">
+                Dietas
+            </li>
+            <li className="menuLink">
+                Productos
+            </li>
+            <li className="menuLink">
+                Eventos
+            </li>
+        </ul>
     </div>
     <div className="navBar">
         <div className="navIcon">
@@ -15,6 +34,8 @@ const NavBar = () => {
             <span>SaraGym</span>
         </div>
     </div>
+    </div>
+    
     </>
     )
 } 
