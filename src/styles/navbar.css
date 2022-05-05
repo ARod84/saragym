@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 
 .navBar {
-    width: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
-    margin: 0;
+    margin-left: 20vw;
     padding: 1rem;
     height: 100%;
     color:aliceblue;
@@ -35,21 +34,28 @@
     margin-top: 5px;
 }
 
-.navInner {
-    width: 360px;
+.navInner .categorias {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
     position: fixed;
     margin: 0;
     padding: 0;
     height: 100%;
     background: #282c34;
+    color: #ffffff;
+    width: 20vw;
+}
+
+.menuLink {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 .wrapperNavbar {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 500px;
 }
