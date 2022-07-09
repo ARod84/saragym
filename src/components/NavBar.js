@@ -6,13 +6,12 @@ const NavBar = () => {
     const [open, setOpen] = useState(false);
     
     const handleClick = () => {
-        setOpen(true);
-        return open;
+        !open ? setOpen(true) : setOpen(false)
     }
     return (
     <>
     <div className="wrapperNavbar">
-    <div className={`navInner ${open ? "open" : ""}`}>
+    <div className={`navInner ${open ? "open" : "close"}`}>
         <ul className="categorias">
             <li className="menuLink destacado">
                 Rutinas

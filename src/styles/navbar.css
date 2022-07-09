@@ -56,6 +56,10 @@
     width: 20vw;
 }
 
+.navInner.close .categorias {
+    width: 0vw;
+}
+
 .menuLink {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 1.25rem;

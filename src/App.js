@@ -1,15 +1,18 @@
-import './App.css';
+import ItemList from './components/ItemList';
+import './index.css'
+// estilos 
 import NavBar from './components/NavBar'
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <header className="App-header">
+      <main className="main">
         <h1>
-          SaraGym App
+          SaraGym 
         </h1>
-      </header>
+        <ItemList />
+      </main>
     </div>
   );
 }
