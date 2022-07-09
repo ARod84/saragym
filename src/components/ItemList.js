@@ -32,11 +32,11 @@ const ItemList = () => {
                 <option key={cat.id}>{cat.nombre}</option>
             ))}
         </select>
-        <h3>Dietas</h3>
+        <h3 className='catTitle'>Dietas</h3>
         <Dietas />
-        <h3>Rutinas</h3>
+        <h3 className='catTitle'>Rutinas</h3>
         <Rutinas />
-        <h3>Productos</h3>
+        <h3 className='catTitle'>Productos</h3>
         <Productos />
     </div>
   )

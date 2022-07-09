@@ -26,7 +26,7 @@ const Productos = () => {
         {productos.map((p) => (
             <div className='basis-1/4' key={p.id}>
                 <p>{p.nombre}</p>
-                <p>{p.price}</p>
+                <p>{p.price} $USD</p>
             </div>
         ))}
     </div>
